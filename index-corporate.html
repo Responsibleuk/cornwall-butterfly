@@ -15,7 +15,6 @@
         <link href="images/favicon.ico" rel="shortcut icon">
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/tobii.min.css" rel="stylesheet" type="text/css" />
         <link href="css/tiny-slider.css" rel="stylesheet" type="text/css" />
         <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
         <link href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet">
@@ -25,15 +24,36 @@
     </head>
 
     <body>
+        <!-- TAGLINE START-->
+        <div class="tagline bg-white">
+            <div class="container">                
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item mb-0"><a href="javascript:void(0)" class="text-muted fw-normal"><i data-feather="mail" class="fea icon-sm text-primary"></i> support@starty.com</a></li>
+                                <li class="list-inline-item mb-0 ms-3"><a href="javascript:void(0)" class="text-muted fw-normal"><i data-feather="map-pin" class="fea icon-sm text-primary"></i> 4432 Pick Street Denver, CO 80203</a></li>
+                            </ul>
+
+                            <ul class="list-unstyled social-icon tagline-social mb-0">
+                                <li class="list-inline-item mb-0"><a href="javascript:void(0)"><i class="uil uil-facebook-f h6 mb-0"></i></a></li>
+                                <li class="list-inline-item mb-0"><a href="javascript:void(0)"><i class="uil uil-instagram h6 mb-0"></i></a></li>
+                                <li class="list-inline-item mb-0"><a href="javascript:void(0)"><i class="uil uil-twitter h6 mb-0"></i></a></li>
+                                <li class="list-inline-item mb-0"><a href="javascript:void(0)"><i class="uil uil-linkedin h6 mb-0"></i></a></li>
+                            </ul><!--end icon-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </div><!--end tagline-->
+        <!-- TAGLINE END-->
+
         <!-- Navbar STart -->
-        <header id="topnav" class="defaultscroll sticky">
+        <header id="topnav" class="defaultscroll sticky tagline-height">
             <div class="container">
                 <!-- Logo container-->
                 <a class="logo" href="index.html">
-                    <span class="logo-light-mode">
-                        <img src="images/logo-dark.png" class="l-dark" alt="">
-                        <img src="images/logo-light.png" class="l-light" alt="">
-                    </span>
+                    <img src="images/logo-dark.png" class="logo-light-mode" alt="">
                     <img src="images/logo-light.png" class="logo-dark-mode" alt="">
                 </a>
                 <!-- End Logo container-->
@@ -55,8 +75,7 @@
                     <li class="list-inline-item search-icon mb-0">
                         <div class="dropdown">
                             <button type="button" class="btn btn-link text-decoration-none dropdown-toggle mb-0 p-0" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="uil uil-search h5 text-dark nav-light-icon-dark mb-0"></i>
-                                <i class="uil uil-search h5 text-white nav-light-icon-white mb-0"></i>
+                                <i class="uil uil-search h5 text-dark mb-0"></i>
                             </button>
                             <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-4 py-0" style="width: 300px;">
                                 <form class="p-4">
@@ -69,7 +88,7 @@
 
                 <div id="navigation">
                     <!-- Navigation Menu-->
-                    <ul class="navigation-menu nav-right nav-light">
+                    <ul class="navigation-menu nav-right">
                         <li class="has-submenu parent-parent-menu-item">
                             <a href="javascript:void(0)">Home</a><span class="menu-arrow"></span>
                             <ul class="submenu megamenu">
@@ -381,7 +400,7 @@
                                 <li><a href="blog-author.html" class="sub-menu-item">Author</a></li>
                             </ul>
                         </li>
-                        <li><a href="butterflies.html" class="sub-menu-item">Butterflies</a></li>
+
                         <li><a href="page-contact.html" class="sub-menu-item">Contact us</a></li>
                     </ul><!--end navigation menu-->
                 </div><!--end navigation-->
@@ -389,292 +408,371 @@
         </header><!--end header-->
         <!-- Navbar End -->
 
-        <!-- Start -->
-        <section class="bg-half-260 d-table w-100" style="background: url('images/bg/butterfly.jpg') center;">
-            
+        <!-- Hero Start -->
+        <section class="bg-half-170 bg-light pb-0 d-table w-100" style="background: url('images/bg/corporate01.png') center center;">
             <div class="container">
-                <div class="row mt-5">
-                    <div class="col-12">
+                <div class="row mt-5 align-items-center">
+                    <div class="col-lg-7 col-md-6">
                         <div class="title-heading">
-                            <h4 class="heading fw-bold text-white title-dark mb-4">More Charity <br>More Better Life</h4>
-                            <p class="text-white para-desc mb-0">Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
-
+                            <h4 class="display-3 mb-4 fw-bold title-dark"> Insuring Your Future <br> From Today </h4>
+                            <p class="para-desc text-muted">From banking to wealth management and securities distribution, we dedicated financial services the teams serve all major sectors.</p>
                             <div class="mt-4 pt-2">
-                                <a href="#volunteer" class="btn btn-primary m-1">Become a volunteer</a>
-                                <a href="https://www.youtube.com/watch?v=CM8tKs8tTeU" data-type="youtube" data-id="yba7hPeTSjk" class="btn btn-icon btn-pills btn-primary m-1 lightbox"><i data-feather="video" class="icons"></i></a><span class="text-light title-dark small align-middle ms-1">Watch Now</span>
+                                <a href="javascript:void(0)" class="btn btn-lg btn-pills btn-primary">Work with us</a>
                             </div>
                         </div>
                     </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-        </section><!--end section-->
-        <!-- End -->
 
-        <!-- FEATURES START -->
-        <section class="section">
-            <!-- <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div class="features-absolute rounded shadow p-md-5 p-4 bg-white">
-                            <div class="row align-items-center">
-                                <div class="col-md-6">
-                                    <div class="section-title">
-                                        <span class="badge bg-soft-primary rounded-lg">Charity Donation</span>
-                                        <h6 class="mb-0 mt-3">We are near to our</h6>
-                                        <h4 class="title fw-semibold mb-3">CAMPAIGN</h4>
-                                        <p class="text-muted para-desc mb-0">Our design projects are fresh and simple and will benefit your business greatly.</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6 mt-4 pt-2 mt-md-0 pt-md-0">
-                                    <div class="progress-box mt-4">
-                                        <div class="progress rounded-md" style="height: 10px;">
-                                            <div class="progress-bar position-relative bg-primary rounded-md" style="width:60%;">
-                                                <div class="progress-value d-block text-muted h6">Raised 60% = $ 600000</div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex justify-content-between mt-2">
-                                            <h6 class="title text-muted text-start mb-0">$ 1000</h6>
-                                            <h6 class="title text-muted text-end mb-0">Goal: $ 1000000</h6>
-                                        </div>
-                                    </div>
-
-                                    <div class="mt-4 text-lg-end">
-                                        <a href="javascript:void(0)" class="btn btn-primary">Donate Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-5 col-md-6 mt-5 mt-sm-0">
+                        <img src="images/corporate01.png" class="img-fluid" alt="">
                     </div>
-                </div>
-            </div> -->
+                </div><!--end row-->
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
 
-            
-
-            <div class="container mt-100 mt-60">
+        <!-- Start services -->
+        <section class="section">
+            <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <div class="section-title text-center mb-4 pb-2">
-                            <h4 class="title fw-semibold mb-4">Butterflies and moths are sensitive indicators of the health of our environment. Find out how you can help them. </h4>
-                            <!-- <p class="para-desc text-muted mx-auto mb-0">Explore and learn more about everything from machine learning and global payments to  scaling your team.</p> -->
+                            <h4 class="title fw-semibold mb-3">Explore Solutions</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
 
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                        <div class="card blog blog-primary shadow rounded overflow-hidden">
-                            <div class="image position-relative overflow-hidden">
-                                <img src="images/charity/news01.jpg" class="img-fluid" alt="">
-
-                                <div class="blog-tag">
-                                    <a href="javascript:void(0)" class="badge bg-light">Home</a>
-                                </div>
+                <div class="row">
+                    <div class="col-lg-4 mt-4 pt-2">
+                        <div class="features feature-primary feature-bg border-0 p-4 rounded shadow">
+                            <div class="fea-icon rounded text-white title-dark">
+                                <i class="uil uil-airplay"></i>
                             </div>
 
-                            <div class="card-body content">
-                                <a href="blog-detail-three.html" class="h5 title text-dark d-block mb-0">Volunteer</a>
-                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
-                                <a href="blog-detail-three.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
+                            <div class="content mt-3">
+                                <a href="page-single-service.html" class="title h5 text-dark">Responsive Design</a>
+                                <p class="text-muted para mt-2 mb-0">This prevents repetitive patterns from impairing the overall facilitates the comparison.</p>
                             </div>
                         </div>
                     </div><!--end col-->
 
                     <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                        <div class="card blog blog-primary shadow rounded overflow-hidden">
-                            <div class="image position-relative overflow-hidden">
-                                <img src="images/charity/news02.jpg" class="img-fluid" alt="">
-
-                                <div class="blog-tag">
-                                    <a href="javascript:void(0)" class="badge bg-light">Water</a>
-                                </div>
+                        <div class="features feature-primary feature-bg border-0 p-4 rounded shadow">
+                            <div class="fea-icon rounded text-white title-dark">
+                                <i class="uil uil-eye"></i>
                             </div>
 
-                            <div class="card-body content">
-                                <a href="blog-detail-three.html" class="h5 title text-dark d-block mb-0">Join</a>
-                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
-                                <a href="blog-detail-three.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
+                            <div class="content mt-3">
+                                <a href="page-single-service.html" class="title h5 text-dark">Retina Ready Graphics</a>
+                                <p class="text-muted para mt-2 mb-0">This prevents repetitive patterns from impairing the overall facilitates the comparison.</p>
                             </div>
                         </div>
                     </div><!--end col-->
-                    
-                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                        <div class="card blog blog-primary shadow rounded overflow-hidden">
-                            <div class="image position-relative overflow-hidden">
-                                <img src="images/charity/news03.jpg" class="img-fluid" alt="">
 
-                                <div class="blog-tag">
-                                    <a href="javascript:void(0)" class="badge bg-light">Educations</a>
-                                </div>
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="features feature-primary feature-bg border-0 p-4 rounded shadow">
+                            <div class="fea-icon rounded text-white title-dark">
+                                <i class="uil uil-tachometer-fast-alt"></i>
                             </div>
 
-                            <div class="card-body content">
-                                <a href="blog-detail-three.html" class="h5 title text-dark d-block mb-0">Donate</a>
-                                <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
-                                <a href="blog-detail-three.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
+                            <div class="content mt-3">
+                                <a href="page-single-service.html" class="title h5 text-dark">Powerful Performance</a>
+                                <p class="text-muted para mt-2 mb-0">This prevents repetitive patterns from impairing the overall facilitates the comparison.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="features feature-primary feature-bg border-0 p-4 rounded shadow">
+                            <div class="fea-icon rounded text-white title-dark">
+                                <i class="uil uil-palette"></i>
+                            </div>
+
+                            <div class="content mt-3">
+                                <a href="page-single-service.html" class="title h5 text-dark">Unlimited Color Options</a>
+                                <p class="text-muted para mt-2 mb-0">This prevents repetitive patterns from impairing the overall facilitates the comparison.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="features feature-primary feature-bg border-0 p-4 rounded shadow">
+                            <div class="fea-icon rounded text-white title-dark">
+                                <i class="uil uil-font"></i>
+                            </div>
+
+                            <div class="content mt-3">
+                                <a href="page-single-service.html" class="title h5 text-dark">Customizable Fonts</a>
+                                <p class="text-muted para mt-2 mb-0">This prevents repetitive patterns from impairing the overall facilitates the comparison.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="features feature-primary feature-bg border-0 p-4 rounded shadow">
+                            <div class="fea-icon rounded text-white title-dark">
+                                <i class="uil uil-file-upload-alt"></i>
+                            </div>
+
+                            <div class="content mt-3">
+                                <a href="page-single-service.html" class="title h5 text-dark">Free Updates</a>
+                                <p class="text-muted para mt-2 mb-0">This prevents repetitive patterns from impairing the overall facilitates the comparison.</p>
                             </div>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
-            </div>
+            </div><!--end container-->
 
-                <div class="container mt-100 mt-60">
-                    <div class="row justify-content-center">
-                        <div class="col-12">
-                            <div class="section-title text-center mb-4 pb-2">
-                                <h4 class="title fw-semibold mb-4">Butterflies and moths are sensitive indicators of the health of our environment. Find out how you can help them. </h4>
-                                <!-- <p class="para-desc text-muted mx-auto mb-0">Explore and learn more about everything from machine learning and global payments to  scaling your team.</p> -->
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                        <img src="images/about02.jpg" class="img-fluid rounded shadow" alt="">
+                    </div><!--end col-->
+
+                    <div class="col-lg-7 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title ms-lg-5">
+                            <h4 class="title fw-semibold mb-3">Crafted For Digital Agency.</h4>
+                            <p class="text-muted para-desc mb-0">The advantage of its Latin origin and the relative meaninglessness of Lorum Ipsum is that the text does not attract attention to itself or distract the viewer's attention from the layout.</p>
+                        
+                            <div class="row mt-4">
+                                <div class="col-lg-6 col-12">
+                                    <ul class="mb-0 list-unstyled">
+                                        <li class="mb-0"><span class="text-primary h4 me-2"><i class="uil uil-check-circle align-middle"></i></span> Fully Responsive</li>
+                                        <li class="mb-0"><span class="text-primary h4 me-2"><i class="uil uil-check-circle align-middle"></i></span> Finance & Restructuring </li>
+                                        <li class="mb-0"><span class="text-primary h4 me-2"><i class="uil uil-check-circle align-middle"></i></span> Audit & Assurance </li>
+                                        <li class="mb-0"><span class="text-primary h4 me-2"><i class="uil uil-check-circle align-middle"></i></span> Trades & Stock Market </li>
+                                    </ul>
+                                </div><!--end col-->
+
+                                <div class="col-lg-6 col-12">
+                                    <ul class="mb-0 list-unstyled">
+                                        <li class="mb-0"><span class="text-primary h4 me-2"><i class="uil uil-check-circle align-middle"></i></span> Strategy & Planning </li>
+                                        <li class="mb-0"><span class="text-primary h4 me-2"><i class="uil uil-check-circle align-middle"></i></span> Software & Research </li>
+                                        <li class="mb-0"><span class="text-primary h4 me-2"><i class="uil uil-check-circle align-middle"></i></span> Support & Maintenance </li>
+                                    </ul>
+                                </div><!--end col-->
+                            </div><!--end row-->
+
+                            <div class="mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary">Read More <i class="uil uil-arrow-right align-middle"></i></a>
                             </div>
-                        </div><!--end col-->
-                    </div><!--end row-->
-
-
-                    <div class="row justify-content-center">
-                        <div class="col-xl-3 col-lg-4 col-md-6 mt-4 pt-2">
-                            <div class="card blog blog-image blog-primary shadow rounded overflow-hidden">
-                                <div class="card-img">
-                                    <img src="images/blog/img01.jpg" class="img-fluid" alt="">
-                                    <div class="card-overlay"></div>
-    
-                                    
-                                </div>
-                                <div class="content px-4">
-                                    <a href="blog-detail-one.html" class="h5 title d-block mb-0 text-white title-dark">How to Get a Successful Ad for Your Business</a>
-    
-                                    <div class="d-flex author align-items-center mt-2">
-                                        <img src="images/client/04.jpg" class="avatar avatar-md-sm rounded-pill" alt="">
-                                        <div class="ms-2">
-                                            <small class="text-light title-dark user d-block"> Calvin Carlo</small>
-                                            <small class="text-light title-dark date"> 13th April 2021</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 mt-4 pt-2">
-                            <div class="card blog blog-image blog-primary shadow rounded overflow-hidden">
-                                <div class="card-img">
-                                    <img src="images/blog/img01.jpg" class="img-fluid" alt="">
-                                    <div class="card-overlay"></div>
-    
-                                    
-                                </div>
-                                <div class="content px-4">
-                                    <a href="blog-detail-one.html" class="h5 title d-block mb-0 text-white title-dark">How to Get a Successful Ad for Your Business</a>
-    
-                                    <div class="d-flex author align-items-center mt-2">
-                                        <img src="images/client/04.jpg" class="avatar avatar-md-sm rounded-pill" alt="">
-                                        <div class="ms-2">
-                                            <small class="text-light title-dark user d-block"> Calvin Carlo</small>
-                                            <small class="text-light title-dark date"> 13th April 2021</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 mt-4 pt-2">
-                            <div class="card blog blog-image blog-primary shadow rounded overflow-hidden">
-                                <div class="card-img">
-                                    <img src="images/blog/img01.jpg" class="img-fluid" alt="">
-                                    <div class="card-overlay"></div>
-    
-                                    
-                                </div>
-                                <div class="content px-4">
-                                    <a href="blog-detail-one.html" class="h5 title d-block mb-0 text-white title-dark">How to Get a Successful Ad for Your Business</a>
-    
-                                    <div class="d-flex author align-items-center mt-2">
-                                        <img src="images/client/04.jpg" class="avatar avatar-md-sm rounded-pill" alt="">
-                                        <div class="ms-2">
-                                            <small class="text-light title-dark user d-block"> Calvin Carlo</small>
-                                            <small class="text-light title-dark date"> 13th April 2021</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-
-                        <div class="col-xl-3 col-lg-4 col-md-6 mt-4 pt-2">
-                            <div class="card blog blog-image blog-primary shadow rounded overflow-hidden">
-                                <div class="card-img">
-                                    <img src="images/blog/img01.jpg" class="img-fluid" alt="">
-                                    <div class="card-overlay"></div>
-    
-                                    
-                                </div>
-                                <div class="content px-4">
-                                    <a href="blog-detail-one.html" class="h5 title d-block mb-0 text-white title-dark">How to Get a Successful Ad for Your Business</a>
-    
-                                    <div class="d-flex author align-items-center mt-2">
-                                        <img src="images/client/04.jpg" class="avatar avatar-md-sm rounded-pill" alt="">
-                                        <div class="ms-2">
-                                            <small class="text-light title-dark user d-block"> Calvin Carlo</small>
-                                            <small class="text-light title-dark date"> 13th April 2021</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-
-
-
-
-
-
-
-                    </div>
-
-                
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
             </div><!--end container-->
         </section><!--end section-->
+        <!-- End services -->
+
+        <!-- Start -->
+        <section class="section bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 mb-4 pb-2">
+                        <div class="section-title text-center">
+                            <h4 class="title fw-semibold mb-3">Meet Our Team Expert</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container-fluid mt-4 pt-2">
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <div class="tiny-six-item">
+                            <div class="tiny-slide">
+                                <div class="card team team-primary">
+                                    <div class="card-img">
+                                        <img src="images/client/09.jpg" class="img-fluid" alt="">
+                                        <div class="card-overlay"></div>
+                                    </div>
+                                    <div class="team-content">
+                                        <a href="javascript:void(0)" class="h6 name text-uppercase d-block mb-0 text-white title-dark">Dennis Rosario</a>
+                                        <small class="text-white title-dark">C.E.O</small>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slide">
+                                <div class="card team team-primary">
+                                    <div class="card-img">
+                                        <img src="images/client/10.jpg" class="img-fluid" alt="">
+                                        <div class="card-overlay"></div>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="name">
+                                            <a href="javascript:void(0)" class="h6 name text-uppercase d-block mb-0 text-white title-dark">Billy Gregory</a>
+                                            <small class="text-white title-dark">Manager</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slide">
+                                <div class="card team team-primary">
+                                    <div class="card-img">
+                                        <img src="images/client/11.jpg" class="img-fluid" alt="">
+                                        <div class="card-overlay"></div>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="name">
+                                            <a href="javascript:void(0)" class="h6 name text-uppercase d-block mb-0 text-white title-dark">Connie Dunton</a>
+                                            <small class="text-white title-dark">Manager</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slide">
+                                <div class="card team team-primary">
+                                    <div class="card-img">
+                                        <img src="images/client/12.jpg" class="img-fluid" alt="">
+                                        <div class="card-overlay"></div>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="name">
+                                            <a href="javascript:void(0)" class="h6 name text-uppercase d-block mb-0 text-white title-dark">Alberta Petty</a>
+                                            <small class="text-white title-dark">Manager</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slide">
+                                <div class="card team team-primary">
+                                    <div class="card-img">
+                                        <img src="images/client/13.jpg" class="img-fluid" alt="">
+                                        <div class="card-overlay"></div>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="name">
+                                            <a href="javascript:void(0)" class="h6 name text-uppercase d-block mb-0 text-white title-dark">Shirley Garcia</a>
+                                            <small class="text-white title-dark">Manager</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slide">
+                                <div class="card team team-primary">
+                                    <div class="card-img">
+                                        <img src="images/client/14.jpg" class="img-fluid" alt="">
+                                        <div class="card-overlay"></div>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="name">
+                                            <a href="javascript:void(0)" class="h6 name text-uppercase d-block mb-0 text-white title-dark">Michael Wheeler</a>
+                                            <small class="text-white title-dark">Manager</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="section-title mb-4 pb-2 mb-md-0 pb-md-0 me-lg-5">
+                            <h4 class="title fw-semibold mb-3">Our Skills & Expertise</h4>
+                            <p class="text-muted para-desc mb-0">Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-7 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="ms-lg-5">
+                            <div class="progress-box">
+                                <h6 class="text-muted fw-normal">Research</h6>
+                                <div class="progress position-relative">
+                                    <div class="progress-bar position-relative bg-primary" style="width:84%;"></div>
+                                    <div class="progress-value d-block text-muted h6 fw-normal">84%</div>
+                                </div>
+                            </div><!--end process box-->
+    
+                            <div class="progress-box mt-4">
+                                <h6 class="text-muted fw-normal">Sales & Trading</h6>
+                                <div class="progress position-relative">
+                                    <div class="progress-bar position-relative bg-primary" style="width:75%;"></div>
+                                    <div class="progress-value d-block text-muted h6 fw-normal">75%</div>
+                                </div>
+                            </div><!--end process box-->
+    
+                            <div class="progress-box mt-4">
+                                <h6 class="text-muted fw-normal">Investment</h6>
+                                <div class="progress position-relative">
+                                    <div class="progress-bar position-relative bg-primary" style="width:79%;"></div>
+                                    <div class="progress-value d-block text-muted h6 fw-normal">79%</div>
+                                </div>
+                            </div><!--end process box-->
+    
+                            <div class="progress-box mt-4">
+                                <h6 class="text-muted fw-normal">Finance</h6>
+                                <div class="progress position-relative">
+                                    <div class="progress-bar position-relative bg-primary" style="width:95%;"></div>
+                                    <div class="progress-value d-block text-muted h6 fw-normal">95%</div>
+                                </div>
+                            </div><!--end process box-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end container-->
         <!-- End -->
 
         <!-- Start CTA -->
-        <section class="bg-cta" id="volunteer" style="background: url('images/bg/charity2.jpg') center;">
+        <section class="bg-cta" style="background: url('images/cta03.jpg') center;">
             <div class="container">
                 <div class="row justify-content-end">
-                    <div class="col-lg-5 col-md-6 col-12">
-                        <div class="card p-4 border-0 rounded bg-white">
-                            <h4>Become a volunteer to help helpless</h4>
-
-                            <form class="mt-4">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="mb-3">
-                                            <label class="form-label">Your Name <span class="text-danger">*</span></label>
-                                            <input name="name" id="name" type="text" class="form-control" placeholder="Name :">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <div class="mb-3">
-                                            <label class="form-label">Your Email <span class="text-danger">*</span></label>
-                                            <input name="email" id="email" type="email" class="form-control" placeholder="Email :">
-                                        </div> 
-                                    </div><!--end col-->
-
-                                    <div class="col-12">
-                                        <div class="mb-3">
-                                            <label class="form-label">Why you join us?</label>
-                                            <input name="subject" id="subject" class="form-control" placeholder="subject :">
-                                        </div>
-                                    </div><!--end col-->
-
-                                    <div class="col-12">
-                                        <div class="mb-3">
-                                            <label class="form-label">Comments <span class="text-danger">*</span></label>
-                                            <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Message :"></textarea>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card py-5 px-4 border-0 rounded bg-white">
+                            <div class="tiny-single-item">
+                                <div class="tiny-slide">
+                                    <div class="card client-testi text-center">
+                                        <img src="images/client/01.jpg" class="avatar avatar-small rounded-pill mx-auto" alt="">
+    
+                                        <div class="card-body pb-0 content">
+                                            <p class="h6 fw-normal text-muted fst-italic">" The advantage of its Latin origin and the relative meaninglessness of Lorum Ipsum is that the text does not attract attention to itself or distract the viewer's attention from the layout. "</p>
+    
+                                            <div class="name mt-4">
+                                                <small class="text-uppercase fw-semibold d-block">Johnny Rosario</small>
+                                                <small class="text-muted">C.E.O</small>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <button type="submit" id="submit" name="send" class="btn btn-primary">Submit</button>
-                                    </div><!--end col-->
-                                </div><!--end row-->
-                            </form>
+                                
+                                <div class="tiny-slide">
+                                    <div class="card client-testi text-center">
+                                        <img src="images/client/02.jpg" class="avatar avatar-small rounded-pill mx-auto" alt="">
+    
+                                        <div class="card-body pb-0 content">
+                                            <p class="h6 fw-normal text-muted fst-italic">" One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others - which creates a distinct visual impression. "</p>
+    
+                                            <div class="name mt-4">
+                                                <small class="text-uppercase fw-semibold d-block">Gale Larose</small>
+                                                <small class="text-muted">Manager</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="tiny-slide">
+                                    <div class="card client-testi text-center">
+                                        <img src="images/client/03.jpg" class="avatar avatar-small rounded-pill mx-auto" alt="">
+    
+                                        <div class="card-body pb-0 content">
+                                            <p class="h6 fw-normal text-muted fst-italic">" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. If the fill text is intended to illustrate the characteristics of different typefaces. "</p>
+    
+                                            <div class="name mt-4">
+                                                <small class="text-uppercase fw-semibold d-block">Shelly Goodman</small>
+                                                <small class="text-muted">Manager</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -685,101 +783,6 @@
         <!-- Start -->
         <section class="section">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12">
-                        <div class="section-title text-center mb-4 pb-2">
-                            <h4 class="title fw-semibold mb-3">Volunteers</h4>
-                            <p class="text-muted para-desc mx-auto mb-0">Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team team-primary rounded team-two overflow-hidden shadow">
-                            <div class="team-image">
-                                <img src="images/client/13.jpg" class="img-fluid" alt="">
-                                <div class="overlay"></div>
-                            </div>
-                            <ul class="list-unstyled social-icon team-social mb-0">
-                                <li><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-                            </ul>
-                            <div class="team-content">
-                                <a href="javascript:void(0)" class="h6 text-uppercase d-block mb-0 text-white title-dark">Dennis Rosario</a>
-                                <small class="text-white title-dark">Manager</small>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-
-                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team team-primary rounded team-two overflow-hidden shadow">
-                            <div class="team-image">
-                                <img src="images/client/14.jpg" class="img-fluid" alt="">
-                                <div class="overlay"></div>
-                            </div>
-                            <ul class="list-unstyled social-icon team-social mb-0">
-                                <li><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-                            </ul>
-                            <div class="team-content">
-                                <div class="name">
-                                    <a href="javascript:void(0)" class="h6 text-uppercase d-block mb-0 text-white title-dark">Billy Gregory</a>
-                                    <small class="text-white title-dark">Manager</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team team-primary rounded team-two overflow-hidden shadow">
-                            <div class="team-image">
-                                <img src="images/client/15.jpg" class="img-fluid" alt="">
-                                <div class="overlay"></div>
-                            </div>
-                            <ul class="list-unstyled social-icon team-social mb-0">
-                                <li><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-                            </ul>
-                            <div class="team-content">
-                                <div class="name">
-                                    <a href="javascript:void(0)" class="h6 text-uppercase d-block mb-0 text-white title-dark">Connie Dunton</a>
-                                    <small class="text-white title-dark">Manager</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team team-primary rounded team-two overflow-hidden shadow">
-                            <div class="team-image">
-                                <img src="images/client/16.jpg" class="img-fluid" alt="">
-                                <div class="overlay"></div>
-                            </div>
-                            <ul class="list-unstyled social-icon team-social mb-0">
-                                <li><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
-                                <li class="mt-1"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-                            </ul>
-                            <div class="team-content">
-                                <div class="name">
-                                    <a href="javascript:void(0)" class="h6 text-uppercase d-block mb-0 text-white title-dark">Alberta Petty</a>
-                                    <small class="text-white title-dark">Manager</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-
-            <div class="container mt-100 mt-60">
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <div class="section-title text-center mb-4 pb-2">
@@ -794,17 +797,17 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2">
                         <div class="card blog blog-primary shadow rounded overflow-hidden">
                             <div class="image position-relative overflow-hidden">
-                                <img src="images/charity/news01.jpg" class="img-fluid" alt="">
+                                <img src="images/blog/01.jpg" class="img-fluid" alt="">
 
                                 <div class="blog-tag">
-                                    <a href="javascript:void(0)" class="badge bg-light">Home</a>
+                                    <a href="javascript:void(0)" class="badge bg-light">Corporate</a>
                                 </div>
                             </div>
 
                             <div class="card-body content">
-                                <a href="blog-detail-three.html" class="h5 title text-dark d-block mb-0">Helping Kids Grow Up Stonger</a>
+                                <a href="blog-detail-four.html" class="h5 title text-dark d-block mb-0">Building Your Corporate Identity from Starty</a>
                                 <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
-                                <a href="blog-detail-three.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
+                                <a href="blog-detail-four.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -812,17 +815,17 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2">
                         <div class="card blog blog-primary shadow rounded overflow-hidden">
                             <div class="image position-relative overflow-hidden">
-                                <img src="images/charity/news02.jpg" class="img-fluid" alt="">
+                                <img src="images/blog/02.jpg" class="img-fluid" alt="">
 
                                 <div class="blog-tag">
-                                    <a href="javascript:void(0)" class="badge bg-light">Water</a>
+                                    <a href="javascript:void(0)" class="badge bg-light">Branding</a>
                                 </div>
                             </div>
 
                             <div class="card-body content">
-                                <a href="blog-detail-three.html" class="h5 title text-dark d-block mb-0">Pure Water More Essential</a>
+                                <a href="blog-detail-four.html" class="h5 title text-dark d-block mb-0">The Dark Side of Overnight Success</a>
                                 <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
-                                <a href="blog-detail-three.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
+                                <a href="blog-detail-four.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -830,17 +833,17 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2">
                         <div class="card blog blog-primary shadow rounded overflow-hidden">
                             <div class="image position-relative overflow-hidden">
-                                <img src="images/charity/news03.jpg" class="img-fluid" alt="">
+                                <img src="images/blog/03.jpg" class="img-fluid" alt="">
 
                                 <div class="blog-tag">
-                                    <a href="javascript:void(0)" class="badge bg-light">Educations</a>
+                                    <a href="javascript:void(0)" class="badge bg-light">Technology</a>
                                 </div>
                             </div>
 
                             <div class="card-body content">
-                                <a href="blog-detail-three.html" class="h5 title text-dark d-block mb-0">Education for African Children</a>
+                                <a href="blog-detail-four.html" class="h5 title text-dark d-block mb-0">The Right Hand of Business IT World</a>
                                 <p class="text-muted mt-2 mb-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
-                                <a href="blog-detail-three.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
+                                <a href="blog-detail-four.html" class="link text-dark">Read More <i class="uil uil-arrow-right align-middle"></i></a>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -849,45 +852,35 @@
         </section><!--end section-->
         <!-- End -->
 
-        <!-- Footer Start -->
+        <!-- CTA Start -->
+        <div class="container-fluid px-0">
+            <div class="py-5 position-relative" style="background: url('images/cta02.jpg') center;">
+                <div class="bg-overlay bg-gradient-overlay"></div>
+                <div class="container my-5">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 col-md-7">
+                            <h4 class="display-6 h4 mb-0 text-white title-dark fw-medium">Make your website unforgettable <br> Join the Starty community.</h4>
+                        </div><!--end col-->
+
+                        <div class="col-lg-4 col-md-5 text-md-end mt-4 mt-sm-0">
+                            <a href="javascript:void(0)" class="btn btn-light">Join us Now</a>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end bg image-->
+        </div><!--end container-->
+        <!-- CTA End -->
+
         <!-- Footer Start -->
         <footer class="footer bg-footer">
-            <div class="py-5 footer-border-bottom">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-12">
-                            <p class="text-white-50">Contact our volunteer and join the <u class="text-light">Starty Foundations</u></p>
-                        </div><!--end col-->
-
-                        <div class="col-md-8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-60">
                             <div class="row">
-                                <div class="col-lg-6 col-12">
-                                    <div class="section-title">
-                                        <div class="d-flex align-items-center">
-                                            <i class="uil uil-mobile-android display-6 text-white title-dark"></i>
-                                            <div class="flex-1 ms-3">
-                                                <a href="tel:+152534-468-854" class="text-light title-dark mb-0 h5">+152 534-468-854</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!--end col-->
-        
-                                <div class="col-lg-6 col-12">
-                                    <div class="section-title">
-                                        <div class="d-flex align-items-center">
-                                            <i class="uil uil-envelope display-6 text-white title-dark"></i>
-                                            <div class="flex-1 ms-3">
-                                                <a href="mailto:contact@example.com" class="text-light title-dark mb-0 h5">contact@example.com</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!--end col-->
-                            </div><!--end row-->
-                        </div><!--end col-->
-
-                        <div class="col-md-4 mt-4 mt-sm-0">
-                            <ul class="list-unstyled social-icon foot-social-icon text-md-end mb-0">
-                                <li class="list-inline-item"><a href="https://1.envato.market/starty" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
+                                <div class="col-lg-3 col-md-3 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0 order-4 order-md-1">
+                                    <ul class="list-unstyled social-icon foot-social-icon mb-0">
+                                        <li class="list-inline-item"><a href="https://1.envato.market/starty" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
                                 <li class="list-inline-item"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
                                 <li class="list-inline-item"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="uil uil-behance" title="Behance"></i></a></li>
                                 <li class="list-inline-item"><a href="http://linkedin.com/company/shreethemes" target="_blank" class="rounded"><i class="uil uil-linkedin" title="Linkedin"></i></a></li>
@@ -895,57 +888,62 @@
                                 <li class="list-inline-item"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
                                 <li class="list-inline-item"><a href="https://twitter.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
                                 <li class="list-inline-item"><a href="mailto:support@shreethemes.in" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
+                                
                                 <li class="list-inline-item"><a href="https://forms.gle/QkTueCikDGqJnbky9" target="_blank" class="rounded"><i class="uil uil-file align-middle" title="customization"></i></a></li>
-                            </ul><!--end icon-->
-                        </div><!--end col-->
-                    </div><!--end row-->
-                </div><!--end container-->
-            </div><!--end div-->
-
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="footer-py-60">
-                            <div class="row align-items-center justify-content-between">
-                                <div class="col-lg-2 col-md-2 col-sm-3">
-                                    <div class="text-sm-start">
-                                        <a href="#" class="logo-footer">
-                                            <img src="images/logo-light.png" height="30" alt="">
-                                        </a>
-                                    </div>
+                                    </ul><!--end icon-->
                                 </div><!--end col-->
 
-                                <div class="col-lg-7 col-md-6 col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                                    <ul class="list-unstyled footer-list terms-service mb-0 text-sm-start">
-                                        <li class="list-inline-item mb-0"><a href="page-aboutus.html" class="text-foot me-2">About us</a></li>
-                                        <li class="list-inline-item mb-0"><a href="javascript:void(0)" class="text-foot me-2">Terms</a></li>
-                                        <li class="list-inline-item mb-0"><a href="page-faqs.html" class="text-foot me-2">FAQs</a></li>
-                                        <li class="list-inline-item mb-0"><a href="page-contact.html" class="text-foot">Contact</a></li>
+                                <div class="col-lg-3 col-md-3 col-12 order-1 order-md-2">
+                                    <h6 class="footer-head">Company</h6>
+                                    <ul class="list-unstyled footer-list mt-4">
+                                        <li><a href="page-aboutus.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> About us</a></li>
+                                        <li><a href="page-services-two.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Services</a></li>
+                                        <li><a href="page-team.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Team</a></li>
+                                        <li><a href="page-pricing.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Pricing</a></li>
+                                        <li><a href="blog-grid.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Blog</a></li>
+                                        <li><a href="portfolio-detail-four.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Project</a></li>
+                                    </ul>
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-3 col-md-3 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0 order-2 order-md-3">
+                                    <h6 class="footer-head">Usefull Links</h6>
+                                    <ul class="list-unstyled footer-list mt-4">
+                                        <li><a href="index.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Terms of Services</a></li>
+                                        <li><a href="index.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Privacy Policy</a></li>
+                                        <li><a href="page-contact.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Contact Us</a></li>
+                                        <li><a href="index.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Changelog</a></li>
+                                        <li><a href="page-elements.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Components</a></li>
                                     </ul>
                                 </div><!--end col-->
 
-                                <div class="col-lg-3 col-md-4 col-sm-3 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                                    <div class="text-md-end">
-                                        <a href="javascript:void(0)" class="btn btn-primary">Donate Now</a>
-                                    </div>
+                                <div class="col-lg-3 col-md-3 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0 order-3 order-md-4">
+                                    <h6 class="footer-head">Resources</h6>
+                                    <ul class="list-unstyled footer-list mt-4">
+                                        <li><a href="page-faqs.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Theme guide</a></li>
+                                        <li><a href="page-faqs.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Support desk</a></li>
+                                        <li><a href="page-services.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> What we offer</a></li>
+                                        <li><a href="page-aboutus.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Company history</a></li>
+                                    </ul>
                                 </div><!--end col-->
-                            </div><!--end row-->
-
-                            <div class="row">
-                                <div class="col-lg-9 mt-4">
-                                    <p class="foot-text mb-0 text-md-start">It contains a series of real Latin words. This ancient dummy text is also incomprehensible, but it imitates the rhythm of most European languages in Latin script.</p>
-                                </div>
                             </div><!--end row-->
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
 
-            <div class="footer-py-30 pt-0 bg-footer">
+            <div class="footer-py-30 footer-bar bg-footer">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="text-center text-md-start">
+                    <div class="row align-items-center">
+                        <div class="col-sm-4">
+                            <div class="text-sm-start text-center">
+                                <a href="#">
+                                    <img src="images/logo-light.png" height="26" alt="">
+                                </a>
+                            </div>
+                        </div><!--end col-->
+
+                        <div class="col-sm-8 mt-4 mt-sm-0">
+                            <div class="text-sm-end text-center">
                                 <p class="mb-0 text-muted"><script>document.write(new Date().getFullYear())</script> © Starty. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
                             </div>
                         </div><!--end col-->
@@ -967,7 +965,6 @@
 
         <!-- javascript -->
         <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/tobii.min.js"></script>
         <script src="js/tiny-slider.js"></script>
         <script src="js/feather.min.js"></script>
         <!-- Main Js -->
