@@ -1892,14 +1892,21 @@ button:not(:disabled) {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Helvetica", sans-serif;
   overflow-x: hidden !important;
   font-size: 15px;
   color: #3c4858;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Poppins", sans-serif;
+h1 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 40px;
+  line-height: 2.5;
+  font-weight: 500;
+}
+
+h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Helvetica", sans-serif;
   line-height: 1.5;
   font-weight: 500;
 }
@@ -2076,6 +2083,10 @@ p {
 
 .mt-100 {
   margin-top: 100px;
+}
+
+.mt-50 {
+  margin-top: 50px;
 }
 
 .shape {
@@ -2568,6 +2579,7 @@ p {
 
 #topnav .navbar-toggle:hover, #topnav .navbar-toggle:focus,
 #topnav .navbar-toggle .navigation-menu > li > a:hover, #topnav .navbar-toggle:focus {
+  color: white;
   background-color: transparent;
 }
 
