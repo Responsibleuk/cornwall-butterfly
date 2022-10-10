@@ -3323,7 +3323,7 @@ p {
   top: 0px;
   width: 85%;
   height: 100%;
-  background: rgba(50, 116, 240, 0.7);
+  background: rgba(220, 220, 220, 0.7);
   clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
 }
 
