@@ -2747,19 +2747,19 @@ p {
   line-height: 68px;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 2025px) {
   #topnav .navigation-menu > li .submenu.megamenu {
     width: 1116px !important;
   }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 992px) {
+@media screen and (max-width: 2024px) and (min-width: 992px) {
   #topnav .navigation-menu > li .submenu.megamenu {
     width: 936px !important;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 2992px) {
   #topnav .navigation-menu {
     display: flex;
     flex-wrap: wrap;
