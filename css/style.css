@@ -1924,6 +1924,10 @@ p {
   line-height: 1.6;
 }
 
+.fw-bold {
+  text-shadow: 2px 2px #ff0000;
+}
+
 .fw-medium {
   font-weight: 500;
 }
